@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBE8811D1D60B9CA00C7FE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8811C1D60B9CA00C7FE57 /* AppDelegate.swift */; };
+		CBE8811F1D60B9CA00C7FE57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8811E1D60B9CA00C7FE57 /* ViewController.swift */; };
+		CBE881221D60B9CA00C7FE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE881201D60B9CA00C7FE57 /* Main.storyboard */; };
+		CBE881241D60B9CA00C7FE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE881231D60B9CA00C7FE57 /* Assets.xcassets */; };
+		CBE881271D60B9CA00C7FE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE881251D60B9CA00C7FE57 /* LaunchScreen.storyboard */; };
+		CBE881321D60B9CA00C7FE57 /* GYWeatherEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE881311D60B9CA00C7FE57 /* GYWeatherEffectTests.swift */; };
+		CBE8813D1D60B9CA00C7FE57 /* GYWeatherEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8813C1D60B9CA00C7FE57 /* GYWeatherEffectUITests.swift */; };
+		CBE8814C1D60BC3000C7FE57 /* GYSnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8814B1D60BC3000C7FE57 /* GYSnowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBE8812E1D60B9CA00C7FE57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBE881111D60B9CA00C7FE57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE881181D60B9CA00C7FE57;
+			remoteInfo = GYWeatherEffect;
+		};
+		CBE881391D60B9CA00C7FE57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBE881111D60B9CA00C7FE57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE881181D60B9CA00C7FE57;
+			remoteInfo = GYWeatherEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBE881191D60B9CA00C7FE57 /* GYWeatherEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYWeatherEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE8811C1D60B9CA00C7FE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBE8811E1D60B9CA00C7FE57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBE881211D60B9CA00C7FE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBE881231D60B9CA00C7FE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBE881261D60B9CA00C7FE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBE881281D60B9CA00C7FE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE8812D1D60B9CA00C7FE57 /* GYWeatherEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYWeatherEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE881311D60B9CA00C7FE57 /* GYWeatherEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYWeatherEffectTests.swift; sourceTree = "<group>"; };
+		CBE881331D60B9CA00C7FE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE881381D60B9CA00C7FE57 /* GYWeatherEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYWeatherEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE8813C1D60B9CA00C7FE57 /* GYWeatherEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYWeatherEffectUITests.swift; sourceTree = "<group>"; };
+		CBE8813E1D60B9CA00C7FE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE8814B1D60BC3000C7FE57 /* GYSnowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYSnowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBE881161D60B9CA00C7FE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE8812A1D60B9CA00C7FE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE881351D60B9CA00C7FE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBE881101D60B9CA00C7FE57 = {
+			isa = PBXGroup;
+			children = (
+				CBE8811B1D60B9CA00C7FE57 /* GYWeatherEffect */,
+				CBE881301D60B9CA00C7FE57 /* GYWeatherEffectTests */,
+				CBE8813B1D60B9CA00C7FE57 /* GYWeatherEffectUITests */,
+				CBE8811A1D60B9CA00C7FE57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBE8811A1D60B9CA00C7FE57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBE881191D60B9CA00C7FE57 /* GYWeatherEffect.app */,
+				CBE8812D1D60B9CA00C7FE57 /* GYWeatherEffectTests.xctest */,
+				CBE881381D60B9CA00C7FE57 /* GYWeatherEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBE8811B1D60B9CA00C7FE57 /* GYWeatherEffect */ = {
+			isa = PBXGroup;
+			children = (
+				CBE8814A1D60BC1400C7FE57 /* Effects */,
+				CBE8811C1D60B9CA00C7FE57 /* AppDelegate.swift */,
+				CBE8811E1D60B9CA00C7FE57 /* ViewController.swift */,
+				CBE881201D60B9CA00C7FE57 /* Main.storyboard */,
+				CBE881231D60B9CA00C7FE57 /* Assets.xcassets */,
+				CBE881251D60B9CA00C7FE57 /* LaunchScreen.storyboard */,
+				CBE881281D60B9CA00C7FE57 /* Info.plist */,
+			);
+			path = GYWeatherEffect;
+			sourceTree = "<group>";
+		};
+		CBE881301D60B9CA00C7FE57 /* GYWeatherEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBE881311D60B9CA00C7FE57 /* GYWeatherEffectTests.swift */,
+				CBE881331D60B9CA00C7FE57 /* Info.plist */,
+			);
+			path = GYWeatherEffectTests;
+			sourceTree = "<group>";
+		};
+		CBE8813B1D60B9CA00C7FE57 /* GYWeatherEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBE8813C1D60B9CA00C7FE57 /* GYWeatherEffectUITests.swift */,
+				CBE8813E1D60B9CA00C7FE57 /* Info.plist */,
+			);
+			path = GYWeatherEffectUITests;
+			sourceTree = "<group>";
+		};
+		CBE8814A1D60BC1400C7FE57 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				CBE8814B1D60BC3000C7FE57 /* GYSnowView.swift */,
+			);
+			name = Effects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBE881181D60B9CA00C7FE57 /* GYWeatherEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE881411D60B9CA00C7FE57 /* Build configuration list for PBXNativeTarget "GYWeatherEffect" */;
+			buildPhases = (
+				CBE881151D60B9CA00C7FE57 /* Sources */,
+				CBE881161D60B9CA00C7FE57 /* Frameworks */,
+				CBE881171D60B9CA00C7FE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYWeatherEffect;
+			productName = GYWeatherEffect;
+			productReference = CBE881191D60B9CA00C7FE57 /* GYWeatherEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBE8812C1D60B9CA00C7FE57 /* GYWeatherEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE881441D60B9CA00C7FE57 /* Build configuration list for PBXNativeTarget "GYWeatherEffectTests" */;
+			buildPhases = (
+				CBE881291D60B9CA00C7FE57 /* Sources */,
+				CBE8812A1D60B9CA00C7FE57 /* Frameworks */,
+				CBE8812B1D60B9CA00C7FE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE8812F1D60B9CA00C7FE57 /* PBXTargetDependency */,
+			);
+			name = GYWeatherEffectTests;
+			productName = GYWeatherEffectTests;
+			productReference = CBE8812D1D60B9CA00C7FE57 /* GYWeatherEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBE881371D60B9CA00C7FE57 /* GYWeatherEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE881471D60B9CA00C7FE57 /* Build configuration list for PBXNativeTarget "GYWeatherEffectUITests" */;
+			buildPhases = (
+				CBE881341D60B9CA00C7FE57 /* Sources */,
+				CBE881351D60B9CA00C7FE57 /* Frameworks */,
+				CBE881361D60B9CA00C7FE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE8813A1D60B9CA00C7FE57 /* PBXTargetDependency */,
+			);
+			name = GYWeatherEffectUITests;
+			productName = GYWeatherEffectUITests;
+			productReference = CBE881381D60B9CA00C7FE57 /* GYWeatherEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBE881111D60B9CA00C7FE57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = gaoyve;
+				TargetAttributes = {
+					CBE881181D60B9CA00C7FE57 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W9PJVMSLDQ;
+						ProvisioningStyle = Automatic;
+					};
+					CBE8812C1D60B9CA00C7FE57 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W9PJVMSLDQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBE881181D60B9CA00C7FE57;
+					};
+					CBE881371D60B9CA00C7FE57 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W9PJVMSLDQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBE881181D60B9CA00C7FE57;
+					};
+				};
+			};
+			buildConfigurationList = CBE881141D60B9CA00C7FE57 /* Build configuration list for PBXProject "GYWeatherEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBE881101D60B9CA00C7FE57;
+			productRefGroup = CBE8811A1D60B9CA00C7FE57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBE881181D60B9CA00C7FE57 /* GYWeatherEffect */,
+				CBE8812C1D60B9CA00C7FE57 /* GYWeatherEffectTests */,
+				CBE881371D60B9CA00C7FE57 /* GYWeatherEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBE881171D60B9CA00C7FE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE881271D60B9CA00C7FE57 /* LaunchScreen.storyboard in Resources */,
+				CBE881241D60B9CA00C7FE57 /* Assets.xcassets in Resources */,
+				CBE881221D60B9CA00C7FE57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE8812B1D60B9CA00C7FE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE881361D60B9CA00C7FE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBE881151D60B9CA00C7FE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE8811F1D60B9CA00C7FE57 /* ViewController.swift in Sources */,
+				CBE8811D1D60B9CA00C7FE57 /* AppDelegate.swift in Sources */,
+				CBE8814C1D60BC3000C7FE57 /* GYSnowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE881291D60B9CA00C7FE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE881321D60B9CA00C7FE57 /* GYWeatherEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE881341D60B9CA00C7FE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE8813D1D60B9CA00C7FE57 /* GYWeatherEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBE8812F1D60B9CA00C7FE57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE881181D60B9CA00C7FE57 /* GYWeatherEffect */;
+			targetProxy = CBE8812E1D60B9CA00C7FE57 /* PBXContainerItemProxy */;
+		};
+		CBE8813A1D60B9CA00C7FE57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE881181D60B9CA00C7FE57 /* GYWeatherEffect */;
+			targetProxy = CBE881391D60B9CA00C7FE57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBE881201D60B9CA00C7FE57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE881211D60B9CA00C7FE57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBE881251D60B9CA00C7FE57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE881261D60B9CA00C7FE57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBE8813F1D60B9CA00C7FE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBE881401D60B9CA00C7FE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBE881421D60B9CA00C7FE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9PJVMSLDQ;
+				INFOPLIST_FILE = GYWeatherEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyve.GYWeatherEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CBE881431D60B9CA00C7FE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9PJVMSLDQ;
+				INFOPLIST_FILE = GYWeatherEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyve.GYWeatherEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CBE881451D60B9CA00C7FE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W9PJVMSLDQ;
+				INFOPLIST_FILE = GYWeatherEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyve.GYWeatherEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYWeatherEffect.app/GYWeatherEffect";
+			};
+			name = Debug;
+		};
+		CBE881461D60B9CA00C7FE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W9PJVMSLDQ;
+				INFOPLIST_FILE = GYWeatherEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyve.GYWeatherEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYWeatherEffect.app/GYWeatherEffect";
+			};
+			name = Release;
+		};
+		CBE881481D60B9CA00C7FE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W9PJVMSLDQ;
+				INFOPLIST_FILE = GYWeatherEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyve.GYWeatherEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GYWeatherEffect;
+			};
+			name = Debug;
+		};
+		CBE881491D60B9CA00C7FE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W9PJVMSLDQ;
+				INFOPLIST_FILE = GYWeatherEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaoyve.GYWeatherEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GYWeatherEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBE881141D60B9CA00C7FE57 /* Build configuration list for PBXProject "GYWeatherEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE8813F1D60B9CA00C7FE57 /* Debug */,
+				CBE881401D60B9CA00C7FE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE881411D60B9CA00C7FE57 /* Build configuration list for PBXNativeTarget "GYWeatherEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE881421D60B9CA00C7FE57 /* Debug */,
+				CBE881431D60B9CA00C7FE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBE881441D60B9CA00C7FE57 /* Build configuration list for PBXNativeTarget "GYWeatherEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE881451D60B9CA00C7FE57 /* Debug */,
+				CBE881461D60B9CA00C7FE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBE881471D60B9CA00C7FE57 /* Build configuration list for PBXNativeTarget "GYWeatherEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE881481D60B9CA00C7FE57 /* Debug */,
+				CBE881491D60B9CA00C7FE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBE881111D60B9CA00C7FE57 /* Project object */;
+}

@@ -20,7 +20,6 @@ class GYSnowView: UIView {
         snowEmitter.emitterShape = kCAEmitterLayerRectangle
         
         let snowEmitterCell = CAEmitterCell()
-
         snowEmitterCell.contents = UIImage(named: "flake.png")!.cgImage
         snowEmitterCell.birthRate = 200
         snowEmitterCell.lifetime = 3.5

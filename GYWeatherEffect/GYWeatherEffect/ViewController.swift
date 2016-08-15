@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         snowView = GYSnowView(frame: CGRect(x: -150, y:-100, width: 300, height: 50))
-        let snowClipView = UIView(frame: view.frame.offsetBy(dx: 0, dy: 50))
+        let snowClipView = UIView(frame: view.frame.offsetBy(dx: 0, dy: 0))
         snowClipView.clipsToBounds = true
         snowClipView.addSubview(snowView)
         view.addSubview(snowClipView)

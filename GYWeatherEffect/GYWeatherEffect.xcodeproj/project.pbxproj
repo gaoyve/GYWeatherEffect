@@ -524,6 +524,7 @@
 				CBE881431D60B9CA00C7FE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE881441D60B9CA00C7FE57 /* Build configuration list for PBXNativeTarget "GYWeatherEffectTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +533,7 @@
 				CBE881461D60B9CA00C7FE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE881471D60B9CA00C7FE57 /* Build configuration list for PBXNativeTarget "GYWeatherEffectUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +542,7 @@
 				CBE881491D60B9CA00C7FE57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

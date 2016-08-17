@@ -45,3 +45,4 @@ This model is maintained by [Gerry](https://github.com/gaoyve). You can follow m
 ## License
 
 GYWeatherEffect is released under [MIT](LICENSE) license.
+Copyright © 2016 [gaoyve](http://gaoyve.com). All rights reserved.
